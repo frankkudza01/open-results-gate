@@ -1,0 +1,31 @@
+{
+	"name": "open-results",
+	"version": "1.0.0",
+	"description": "USSD application to allow ZIMSEC candidates to view their results via USSD",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"engines": {
+		"node": "^8.12.0",
+		"npm": "^6.4.1"
+	},
+	"keywords": [
+		"USSD",
+		"ZIMSEC",
+		"RESULTS"
+	],
+	"author": "Theophilus Chidiebere Okoye",
+	"license": "MIT",
+	"dependencies": {
+		"africastalking": "^0.4.0",
+		"body-parser": "^1.18.3",
+		"cors": "^2.8.5",
+		"express": "^4.16.4",
+		"mongodb": "^3.2.2",
+		"morgan": "^1.9.1",
+		"pusher": "^2.2.0",
+		"superagent": "^4.1.0"
+	},
+	"repository": "https://github.com/Conceptx/open-results.git"
+}
